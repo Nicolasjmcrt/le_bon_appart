@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container {
+    position: relative!important;
+    padding: 0;
+}
+
+.hero-h1 {
+    position: absolute!important;
+    top: 30%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    background-color: #212529;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+  }
+
+  .copyright {
+    margin-bottom: 0;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+  }
